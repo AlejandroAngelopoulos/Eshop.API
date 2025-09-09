@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Eshop.API.Models;
+namespace Eshop.API.Entities;
 
 public partial class Order
 {

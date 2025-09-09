@@ -1,4 +1,5 @@
-﻿using Eshop.API.Models;
+﻿using Eshop.API.Data;
+using Eshop.API.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
