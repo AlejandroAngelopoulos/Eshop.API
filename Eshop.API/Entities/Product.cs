@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Text.Json.Serialization;
 
 namespace Eshop.API.Entities;
 
@@ -29,6 +28,7 @@ public partial class Product
 
     public DateTime? CreatedAt { get; set; }
 
+    [JsonIgnore]
     public virtual Category Category { get; set; } = null!;
 
     public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
