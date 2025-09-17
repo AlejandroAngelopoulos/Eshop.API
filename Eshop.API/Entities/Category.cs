@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Eshop.API.Entities;
 
@@ -16,6 +17,5 @@ public partial class Category
 
     public virtual Category? ParentCategory { get; set; }
 
-    [JsonIgnore]
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 }
