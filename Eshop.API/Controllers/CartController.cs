@@ -2,6 +2,7 @@
 using Eshop.API.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Eshop.API.DTOs;
 
 [ApiController]
 [Route("api/[controller]")]

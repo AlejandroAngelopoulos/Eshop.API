@@ -1,5 +1,5 @@
 ﻿using Eshop.API.Entities;
-
+using Eshop.API.DTOs;
 public static class CartMappings
 {
     public static CartDto ToDto(this Cart cart)
